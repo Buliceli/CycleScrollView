@@ -1,0 +1,671 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6B0E55AAF8C56694BBB97D42 /* libPods-LDScrollView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D8494FB58E08B878FC19D63A /* libPods-LDScrollView.a */; };
+		A00C4176209AD8A40074A85F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A00C4175209AD8A40074A85F /* AppDelegate.m */; };
+		A00C4179209AD8A40074A85F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A00C4178209AD8A40074A85F /* ViewController.m */; };
+		A00C417C209AD8A40074A85F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A00C417A209AD8A40074A85F /* Main.storyboard */; };
+		A00C417E209AD8A40074A85F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A00C417D209AD8A40074A85F /* Assets.xcassets */; };
+		A00C4181209AD8A40074A85F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A00C417F209AD8A40074A85F /* LaunchScreen.storyboard */; };
+		A00C4184209AD8A40074A85F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A00C4183209AD8A40074A85F /* main.m */; };
+		A00C418E209AD8A40074A85F /* LDScrollViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A00C418D209AD8A40074A85F /* LDScrollViewTests.m */; };
+		A00C4199209AD8A40074A85F /* LDScrollViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A00C4198209AD8A40074A85F /* LDScrollViewUITests.m */; };
+		A00C41AB209AD9BD0074A85F /* LDAdPicView.m in Sources */ = {isa = PBXBuildFile; fileRef = A00C41AA209AD9BD0074A85F /* LDAdPicView.m */; };
+		A00C41AE209AE87D0074A85F /* TestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A00C41AD209AE87D0074A85F /* TestModel.m */; };
+		DCD78BD53365E29DD97142F8 /* libPods-LDScrollViewTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 61E1DE623B661ABED9D21985 /* libPods-LDScrollViewTests.a */; };
+		EC447CDF1E75738E6597CC1F /* libPods-LDScrollViewUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 821E2297F96E445BE1F75984 /* libPods-LDScrollViewUITests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A00C418A209AD8A40074A85F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A00C4169209AD8A40074A85F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A00C4170209AD8A40074A85F;
+			remoteInfo = LDScrollView;
+		};
+		A00C4195209AD8A40074A85F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A00C4169209AD8A40074A85F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A00C4170209AD8A40074A85F;
+			remoteInfo = LDScrollView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00D50613F62883E8F9C24898 /* Pods-LDScrollView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LDScrollView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LDScrollView/Pods-LDScrollView.debug.xcconfig"; sourceTree = "<group>"; };
+		1ED3D435D5D1904565E7BEC2 /* Pods-LDScrollViewTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LDScrollViewTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LDScrollViewTests/Pods-LDScrollViewTests.release.xcconfig"; sourceTree = "<group>"; };
+		61E1DE623B661ABED9D21985 /* libPods-LDScrollViewTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LDScrollViewTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		77992A67667355EDEA205C4C /* Pods-LDScrollViewUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LDScrollViewUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LDScrollViewUITests/Pods-LDScrollViewUITests.release.xcconfig"; sourceTree = "<group>"; };
+		78602F5E9998B7EFADC45A04 /* Pods-LDScrollViewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LDScrollViewTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LDScrollViewTests/Pods-LDScrollViewTests.debug.xcconfig"; sourceTree = "<group>"; };
+		821E2297F96E445BE1F75984 /* libPods-LDScrollViewUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LDScrollViewUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A00C4171209AD8A40074A85F /* LDScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LDScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A00C4174209AD8A40074A85F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A00C4175209AD8A40074A85F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A00C4177209AD8A40074A85F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A00C4178209AD8A40074A85F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A00C417B209AD8A40074A85F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A00C417D209AD8A40074A85F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A00C4180209AD8A40074A85F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A00C4182209AD8A40074A85F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A00C4183209AD8A40074A85F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A00C4189209AD8A40074A85F /* LDScrollViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LDScrollViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A00C418D209AD8A40074A85F /* LDScrollViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LDScrollViewTests.m; sourceTree = "<group>"; };
+		A00C418F209AD8A40074A85F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A00C4194209AD8A40074A85F /* LDScrollViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LDScrollViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A00C4198209AD8A40074A85F /* LDScrollViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LDScrollViewUITests.m; sourceTree = "<group>"; };
+		A00C419A209AD8A40074A85F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A00C41A6209AD93B0074A85F /* LDAdPicProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LDAdPicProtocol.h; sourceTree = "<group>"; };
+		A00C41A9209AD9BD0074A85F /* LDAdPicView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LDAdPicView.h; sourceTree = "<group>"; };
+		A00C41AA209AD9BD0074A85F /* LDAdPicView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LDAdPicView.m; sourceTree = "<group>"; };
+		A00C41AC209AE87D0074A85F /* TestModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestModel.h; sourceTree = "<group>"; };
+		A00C41AD209AE87D0074A85F /* TestModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestModel.m; sourceTree = "<group>"; };
+		D8494FB58E08B878FC19D63A /* libPods-LDScrollView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LDScrollView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E42E42E846E98EFE7935E57D /* Pods-LDScrollView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LDScrollView.release.xcconfig"; path = "Pods/Target Support Files/Pods-LDScrollView/Pods-LDScrollView.release.xcconfig"; sourceTree = "<group>"; };
+		E742F51F44D5104549934D1B /* Pods-LDScrollViewUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LDScrollViewUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LDScrollViewUITests/Pods-LDScrollViewUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A00C416E209AD8A40074A85F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B0E55AAF8C56694BBB97D42 /* libPods-LDScrollView.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A00C4186209AD8A40074A85F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCD78BD53365E29DD97142F8 /* libPods-LDScrollViewTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A00C4191209AD8A40074A85F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC447CDF1E75738E6597CC1F /* libPods-LDScrollViewUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1348AC502FC99F3196F56133 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				00D50613F62883E8F9C24898 /* Pods-LDScrollView.debug.xcconfig */,
+				E42E42E846E98EFE7935E57D /* Pods-LDScrollView.release.xcconfig */,
+				78602F5E9998B7EFADC45A04 /* Pods-LDScrollViewTests.debug.xcconfig */,
+				1ED3D435D5D1904565E7BEC2 /* Pods-LDScrollViewTests.release.xcconfig */,
+				E742F51F44D5104549934D1B /* Pods-LDScrollViewUITests.debug.xcconfig */,
+				77992A67667355EDEA205C4C /* Pods-LDScrollViewUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A00C4168209AD8A40074A85F = {
+			isa = PBXGroup;
+			children = (
+				A00C4173209AD8A40074A85F /* LDScrollView */,
+				A00C418C209AD8A40074A85F /* LDScrollViewTests */,
+				A00C4197209AD8A40074A85F /* LDScrollViewUITests */,
+				A00C4172209AD8A40074A85F /* Products */,
+				1348AC502FC99F3196F56133 /* Pods */,
+				BD77BD319FD0D70DD4E332E9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A00C4172209AD8A40074A85F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A00C4171209AD8A40074A85F /* LDScrollView.app */,
+				A00C4189209AD8A40074A85F /* LDScrollViewTests.xctest */,
+				A00C4194209AD8A40074A85F /* LDScrollViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A00C4173209AD8A40074A85F /* LDScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				A00C41AC209AE87D0074A85F /* TestModel.h */,
+				A00C41AD209AE87D0074A85F /* TestModel.m */,
+				A00C41A6209AD93B0074A85F /* LDAdPicProtocol.h */,
+				A00C41A9209AD9BD0074A85F /* LDAdPicView.h */,
+				A00C41AA209AD9BD0074A85F /* LDAdPicView.m */,
+				A00C4174209AD8A40074A85F /* AppDelegate.h */,
+				A00C4175209AD8A40074A85F /* AppDelegate.m */,
+				A00C4177209AD8A40074A85F /* ViewController.h */,
+				A00C4178209AD8A40074A85F /* ViewController.m */,
+				A00C417A209AD8A40074A85F /* Main.storyboard */,
+				A00C417D209AD8A40074A85F /* Assets.xcassets */,
+				A00C417F209AD8A40074A85F /* LaunchScreen.storyboard */,
+				A00C4182209AD8A40074A85F /* Info.plist */,
+				A00C4183209AD8A40074A85F /* main.m */,
+			);
+			path = LDScrollView;
+			sourceTree = "<group>";
+		};
+		A00C418C209AD8A40074A85F /* LDScrollViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				A00C418D209AD8A40074A85F /* LDScrollViewTests.m */,
+				A00C418F209AD8A40074A85F /* Info.plist */,
+			);
+			path = LDScrollViewTests;
+			sourceTree = "<group>";
+		};
+		A00C4197209AD8A40074A85F /* LDScrollViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A00C4198209AD8A40074A85F /* LDScrollViewUITests.m */,
+				A00C419A209AD8A40074A85F /* Info.plist */,
+			);
+			path = LDScrollViewUITests;
+			sourceTree = "<group>";
+		};
+		BD77BD319FD0D70DD4E332E9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D8494FB58E08B878FC19D63A /* libPods-LDScrollView.a */,
+				61E1DE623B661ABED9D21985 /* libPods-LDScrollViewTests.a */,
+				821E2297F96E445BE1F75984 /* libPods-LDScrollViewUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A00C4170209AD8A40074A85F /* LDScrollView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A00C419D209AD8A40074A85F /* Build configuration list for PBXNativeTarget "LDScrollView" */;
+			buildPhases = (
+				22C1279040D966A3832CAB44 /* [CP] Check Pods Manifest.lock */,
+				A00C416D209AD8A40074A85F /* Sources */,
+				A00C416E209AD8A40074A85F /* Frameworks */,
+				A00C416F209AD8A40074A85F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LDScrollView;
+			productName = LDScrollView;
+			productReference = A00C4171209AD8A40074A85F /* LDScrollView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A00C4188209AD8A40074A85F /* LDScrollViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A00C41A0209AD8A40074A85F /* Build configuration list for PBXNativeTarget "LDScrollViewTests" */;
+			buildPhases = (
+				15D255EB5BD001A24AE6263B /* [CP] Check Pods Manifest.lock */,
+				A00C4185209AD8A40074A85F /* Sources */,
+				A00C4186209AD8A40074A85F /* Frameworks */,
+				A00C4187209AD8A40074A85F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A00C418B209AD8A40074A85F /* PBXTargetDependency */,
+			);
+			name = LDScrollViewTests;
+			productName = LDScrollViewTests;
+			productReference = A00C4189209AD8A40074A85F /* LDScrollViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A00C4193209AD8A40074A85F /* LDScrollViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A00C41A3209AD8A40074A85F /* Build configuration list for PBXNativeTarget "LDScrollViewUITests" */;
+			buildPhases = (
+				462F49FC7E358EE46C91CE7D /* [CP] Check Pods Manifest.lock */,
+				A00C4190209AD8A40074A85F /* Sources */,
+				A00C4191209AD8A40074A85F /* Frameworks */,
+				A00C4192209AD8A40074A85F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A00C4196209AD8A40074A85F /* PBXTargetDependency */,
+			);
+			name = LDScrollViewUITests;
+			productName = LDScrollViewUITests;
+			productReference = A00C4194209AD8A40074A85F /* LDScrollViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A00C4169209AD8A40074A85F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Minte;
+				TargetAttributes = {
+					A00C4170209AD8A40074A85F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					A00C4188209AD8A40074A85F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A00C4170209AD8A40074A85F;
+					};
+					A00C4193209AD8A40074A85F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A00C4170209AD8A40074A85F;
+					};
+				};
+			};
+			buildConfigurationList = A00C416C209AD8A40074A85F /* Build configuration list for PBXProject "LDScrollView" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A00C4168209AD8A40074A85F;
+			productRefGroup = A00C4172209AD8A40074A85F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A00C4170209AD8A40074A85F /* LDScrollView */,
+				A00C4188209AD8A40074A85F /* LDScrollViewTests */,
+				A00C4193209AD8A40074A85F /* LDScrollViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A00C416F209AD8A40074A85F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A00C4181209AD8A40074A85F /* LaunchScreen.storyboard in Resources */,
+				A00C417E209AD8A40074A85F /* Assets.xcassets in Resources */,
+				A00C417C209AD8A40074A85F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A00C4187209AD8A40074A85F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A00C4192209AD8A40074A85F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		15D255EB5BD001A24AE6263B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LDScrollViewTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		22C1279040D966A3832CAB44 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LDScrollView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		462F49FC7E358EE46C91CE7D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LDScrollViewUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A00C416D209AD8A40074A85F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A00C41AB209AD9BD0074A85F /* LDAdPicView.m in Sources */,
+				A00C41AE209AE87D0074A85F /* TestModel.m in Sources */,
+				A00C4179209AD8A40074A85F /* ViewController.m in Sources */,
+				A00C4184209AD8A40074A85F /* main.m in Sources */,
+				A00C4176209AD8A40074A85F /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A00C4185209AD8A40074A85F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A00C418E209AD8A40074A85F /* LDScrollViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A00C4190209AD8A40074A85F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A00C4199209AD8A40074A85F /* LDScrollViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A00C418B209AD8A40074A85F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A00C4170209AD8A40074A85F /* LDScrollView */;
+			targetProxy = A00C418A209AD8A40074A85F /* PBXContainerItemProxy */;
+		};
+		A00C4196209AD8A40074A85F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A00C4170209AD8A40074A85F /* LDScrollView */;
+			targetProxy = A00C4195209AD8A40074A85F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A00C417A209AD8A40074A85F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A00C417B209AD8A40074A85F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A00C417F209AD8A40074A85F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A00C4180209AD8A40074A85F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A00C419B209AD8A40074A85F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A00C419C209AD8A40074A85F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A00C419E209AD8A40074A85F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00D50613F62883E8F9C24898 /* Pods-LDScrollView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LDScrollView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mintelcn.LDScrollView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A00C419F209AD8A40074A85F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E42E42E846E98EFE7935E57D /* Pods-LDScrollView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LDScrollView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mintelcn.LDScrollView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A00C41A1209AD8A40074A85F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78602F5E9998B7EFADC45A04 /* Pods-LDScrollViewTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LDScrollViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mintelcn.LDScrollViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LDScrollView.app/LDScrollView";
+			};
+			name = Debug;
+		};
+		A00C41A2209AD8A40074A85F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1ED3D435D5D1904565E7BEC2 /* Pods-LDScrollViewTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LDScrollViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mintelcn.LDScrollViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LDScrollView.app/LDScrollView";
+			};
+			name = Release;
+		};
+		A00C41A4209AD8A40074A85F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E742F51F44D5104549934D1B /* Pods-LDScrollViewUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LDScrollViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mintelcn.LDScrollViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LDScrollView;
+			};
+			name = Debug;
+		};
+		A00C41A5209AD8A40074A85F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77992A67667355EDEA205C4C /* Pods-LDScrollViewUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LDScrollViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mintelcn.LDScrollViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LDScrollView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A00C416C209AD8A40074A85F /* Build configuration list for PBXProject "LDScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A00C419B209AD8A40074A85F /* Debug */,
+				A00C419C209AD8A40074A85F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A00C419D209AD8A40074A85F /* Build configuration list for PBXNativeTarget "LDScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A00C419E209AD8A40074A85F /* Debug */,
+				A00C419F209AD8A40074A85F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A00C41A0209AD8A40074A85F /* Build configuration list for PBXNativeTarget "LDScrollViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A00C41A1209AD8A40074A85F /* Debug */,
+				A00C41A2209AD8A40074A85F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A00C41A3209AD8A40074A85F /* Build configuration list for PBXNativeTarget "LDScrollViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A00C41A4209AD8A40074A85F /* Debug */,
+				A00C41A5209AD8A40074A85F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A00C4169209AD8A40074A85F /* Project object */;
+}
